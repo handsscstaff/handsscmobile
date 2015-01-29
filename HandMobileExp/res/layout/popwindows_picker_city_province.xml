@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+        <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        >
+        <TextView 
+            android:layout_height="match_parent"
+            android:layout_width="40dp"
+            
+            android:background="@drawable/wheelview_done_shape"
+            android:id="@+id/done"
+            android:text="完成"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            />
+        
+        
+    </RelativeLayout>
+	
+	<LinearLayout 
+		android:layout_height="match_parent"
+		android:layout_gravity="center_horizontal"
+		android:layout_width="fill_parent"
+
+		android:orientation="horizontal">
+	
+   <kankan.wheel.widget.WheelView android:id="@+id/province"
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"/>
+	
+	<kankan.wheel.widget.WheelView android:id="@+id/city"
+		android:layout_height="match_parent"
+		android:layout_width="0dp"
+        android:layout_gravity="center_vertical"
+		android:layout_weight="1"/>
+		
+	</LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_item"
+    android:padding="10dp" >
+    
+    <TextView
+        android:id="@+id/currency"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#CC0033"
+        android:text="CNY-人民币"/>
+	<TextView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textSize="16sp"
+	    android:textStyle="bold"
+	    android:textColor="#000000"
+	    android:text="当前汇率:"
+	    android:layout_marginRight="10dp"
+	    android:layout_toLeftOf="@+id/exchangeRate"
+	    android:layout_alignTop="@+id/currency"/>
+
+	<TextView
+	    android:id="@+id/exchangeRate"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentRight="true"
+	    android:textSize="16sp"
+	    android:textStyle="bold"
+	    android:textColor="#99CC66"
+	    android:text="1.000"
+	    android:layout_alignTop="@+id/currency"/>
+
+</RelativeLayout>

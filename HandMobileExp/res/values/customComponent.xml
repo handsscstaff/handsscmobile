@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <declare-styleable name="NumberText">  
+        <attr name="precision" format="integer" /> 
+         <attr name="autoclean" format="boolean" />   
+    </declare-styleable>  
+</resources>

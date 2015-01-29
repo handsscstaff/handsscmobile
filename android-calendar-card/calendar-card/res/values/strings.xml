@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">calendar-card</string>
+	<string name="left"> &#060; </string>
+	<string name="right">&#062;</string>
+</resources>

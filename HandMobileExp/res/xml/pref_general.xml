@@ -1,0 +1,19 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <PreferenceCategory android:title="@string/pref_header_general" >
+        <EditTextPreference
+            android:capitalize="words"
+            android:defaultValue="@string/pref_default_display_name"
+            android:dialogMessage="@string/pref_default_dialog_message"
+            android:inputType="textUri"
+            android:key="sys_basic_url"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/pref_title_display_name" />
+    </PreferenceCategory>
+
+
+
+</PreferenceScreen>
